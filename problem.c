@@ -6,12 +6,27 @@ b. Using inputs supplied by the user.
 3. Writo a program to convert Celsius (Centigrade degrees temperature to Fahrenheit). 
 4. Write a program to calculate simple interest for a set of values representing principal, number of years and rate of interest.*/
 
+// #include <stdio.h>
+ 
+// int main() {
+    
+//     int leanth = 5;
+//     int breadth = 10;
+
+//     printf("Area of rectangle: %d", leanth * breadth);
+
+//     return 0;
+// }
+
 #include <stdio.h>
-int main() {
-    int leanth;
-    int breadth;
+
+ int main(){
+    int leanth , breadth;
+   
+    printf("Enter leanth ");
+    scanf("%d", &leanth); 
+    printf("Enter breadth ");
     scanf("%d", &breadth);
-    scanf("%d", &leanth);
-    printf("Area of rectangle: %d\n", leanth * breadth);
+    printf("Area of rectangle: %d", leanth * breadth);
     return 0;
 }

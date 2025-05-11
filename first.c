@@ -10,6 +10,7 @@
 
 int main() {
     int a ;
+    a = 9;
     scanf("%d", &a);
     printf("The value of a is %d\n", a);
     return 0;

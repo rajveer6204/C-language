@@ -30,3 +30,4 @@ b. Using inputs supplied by the user.
     printf("Area of rectangle: %d", leanth * breadth);
     return 0;
 }
+
